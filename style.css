@@ -18,7 +18,7 @@ nav{
 nav ul li{
 display: inline-block;
 line-height: 80px;
-margin: 0 5px;
+margin: 0 ;
 }
 
 nav ul li a{
@@ -120,6 +120,8 @@ p2{
 
 .card {
   max-width: 300px;
+  border-style: solid rgb(0, 225, 255);
+  border-radius: 4px;
   margin: auto;
   text-align: center;
   font-family: arial;
@@ -144,5 +146,13 @@ button {
 }
 
 button:hover, a:hover {
-  opacity: 0.7;
+  opacity: 0.9;
+}
+footer{
+  text-align: center;
+  padding: 2px;
+  background-color:rgb(53, 117, 117);
+  color: white;
+  margin-bottom: -2%;
+  width: 100%;
 }
