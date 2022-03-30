@@ -1,0 +1,149 @@
+nav ul{
+float: right;
+margin-right: 20px;
+}
+nav{
+  background:rgb(53, 117, 117) ;
+  height: 80px;
+  width: 100%;
+}
+ label.headings{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 5px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 7px 13px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+
+}
+nav a:hover{
+  background-color: rgb(68, 245, 245);
+  border-radius: 3px;
+}
+
+img {
+  padding-top: 10px;
+  width: 150px;
+  border-radius: none;
+  float: left;
+  margin-right: 10px;
+}
+#first-page{
+  background-image: url("/image/clearh2o.jpg") ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.last{
+  background-image:url("/image/clearh2o.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+}
+body{
+  background-image: url("/image/bike.webp") ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.name {
+  font-weight: bold;
+}
+
+p {
+  color: black;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium";
+  font-style: oblique;
+  font-weight: 800;
+}
+p1 {
+  color: black;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bolder;
+}
+p2{
+  color: black;
+  font-size: 30px;
+  margin-left: 30px;
+  text-align: center;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.content-table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 20px;
+  min-width: 1000px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px black;
+
+}
+.content-table thead tr{
+  background-color: rgb(68, 143, 143);
+  color: rgb(217, 222, 240);
+  text-align: left;
+  font-weight: bold;
+  
+}
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+  background-color: cover;
+}
+.content-table tbody tr{
+  border-bottom: 1px solid black;
+}
+.content-table tbody tr:nth-of-type(even){
+  background-color:rgb(47, 189, 189);
+}
+.content-table tbody tr:last-of-type{
+  border-bottom: 2px solid aquamarine;
+    
+}
+
+.card {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  
+}
+
+.title {
+  color:rgb(72, 6, 134);
+  font-size: 18px;
+}
+
+button {
+  border-radius: 3px solid white;
+  outline: 0;
+  display: inline-block;
+  padding: 4px;
+  color: white;
+  background-color:black;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
